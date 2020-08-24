@@ -42,8 +42,8 @@ for filename in os.listdir(path):
             offline_cheated_plays += 1
             offline_plays += 1
 
-print(f"Online plays: {online_plays}\nFL online plays: {online_plays_fl}\nMad machine (and other dumb spinner maps) online plays: {online_mad_machine_count}")
-print(f"Offline plays: {offline_plays}\nFL offline plays: {offline_plays_fl}\nMad machine (and other dumb spinner maps) offline plays: {offline_mad_machine_count}")
-print(f"\nOnline plays excluding FL and dumb mad machine: {online_plays - online_plays_fl - online_mad_machine_count}")
-print(f"Offline plays excluding FL and dumb mad machine and cheated plays: {offline_plays - offline_plays_fl - offline_mad_machine_count - offline_cheated_plays}")
+print(f"Online plays: {online_plays}\nFL online plays: {online_plays_fl}\nScore/hit farming online plays: {online_mad_machine_count}")
+print(f"Offline plays: {offline_plays}\nFL offline plays: {offline_plays_fl}\nScore/hit farming offline plays: {offline_mad_machine_count}")
+print(f"\nOnline plays excluding FL and score/hit farming maps: {online_plays - online_plays_fl - online_mad_machine_count}")
+print(f"Offline plays excluding FL and score/hit farming maps and cheated plays: {offline_plays - offline_plays_fl - offline_mad_machine_count - offline_cheated_plays}")
 print(f"Offline cheated plays: {offline_cheated_plays}")

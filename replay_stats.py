@@ -1,7 +1,7 @@
 import os
 import datetime
-# using kszlim's osrparse https://github.com/kszlim/osu-replay-parser
-from osrparse import parse_replay_file
+# using circleparse https://github.com/circleguard/circleparse
+from circleparse import parse_replay_file
 
 # note: not all replays in the folder are mine
 # there are a bunch from downloading other players' replays and opening them

@@ -4,7 +4,7 @@ import datetime
 from osrparse import parse_replay_file
 
 # note: not all replays in the folder are mine
-# there are a bunch from downloading other player's replays and opening them
+# there are a bunch from downloading other players' replays and opening them
 
 # majority of my online plays during this time was from fl and score/hit farming my mad machine map
 online_plays = 0
